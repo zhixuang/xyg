@@ -1,0 +1,92 @@
+.lbt {
+  padding: 0px;
+}
+.nav-links {
+  float: left;
+  width: 100%;
+}
+.nav-links a {
+  float: left;
+  width: 33.33%;
+  height: 100%;
+}
+.nav-links a img {
+  width: 100%;
+}
+.brand {
+  padding: 0px 10px;
+}
+.brand .title {
+  width: 100%;
+}
+.brand ul {
+  overflow: hidden;
+  padding: 2px 0;
+}
+.brand ul li {
+  width: 25%;
+  float: left;
+  list-style: none;
+}
+.brand ul li a {
+  display: block;
+}
+.brand ul li a img {
+  width: 100%;
+}
+.product .title {
+  width: 100%;
+}
+.product ul {
+  padding: 0;
+}
+.product ul li {
+  padding-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  float: left;
+  width: 50%;
+  list-style: none;
+  box-shadow: 0 0 5px #ccc;
+  border: 1px solid #ccc;
+}
+.product ul li a {
+  display: block;
+  padding: 5px;
+}
+.product ul li a img {
+  width: 100%;
+}
+.product ul li a .name {
+  display: block;
+  color: #ccc;
+  height: 50px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 18px;
+  padding: 5px;
+}
+.product ul li a p {
+  padding-top: 6px;
+  font-size: 14px;
+  height: 30px;
+  text-align: center;
+}
+.product ul li a p .red {
+  color: red;
+}
+.product ul li a p .san {
+  text-decoration: line-through;
+}
+.product ul li a .buy-now {
+  display: block;
+  width: 80px;
+  height: 30px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  color: #fff;
+  border-radius: 4px;
+  background-color: pink;
+}
