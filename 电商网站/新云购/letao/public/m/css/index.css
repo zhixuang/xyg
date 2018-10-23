@@ -1,0 +1,9 @@
+.mui-slider {
+  width: 100%;
+}
+.mui-slider .mui-slider-group {
+  width: 100%;
+}
+.mui-slider .mui-slider-group .mui-slider-item a img {
+  width: 100%;
+}

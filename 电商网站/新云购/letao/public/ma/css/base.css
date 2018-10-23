@@ -1,0 +1,18 @@
+.m-hd {
+  width: 100%;
+  background-color: pink;
+}
+.m-hd h1 {
+  font-size: 18px;
+  color: #fff;
+}
+.m-hd .min-right {
+  float: right;
+  font-size: 24px;
+}
+.my-footer {
+  background-color: pink;
+}
+.my-footer a p {
+  margin-bottom: 1px;
+}
