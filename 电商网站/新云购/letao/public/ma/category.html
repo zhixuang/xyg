@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/fontAwesome/css/font-awesome.min.css">
     <script src="assets/mui/js/mui.min.js"></script>
   <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/artTemplate/template-native.js"></script>
+
 </head>
 <body>
 <header class="mui-bar mui-bar-nav m-hd">
@@ -36,27 +38,58 @@
     </a>
 </nav>
 <div class="my-content">
-    <div class="category-left" >
-        <div class="mui-scroll-wrapper">
-            <div class="mui-scroll">
+    <div class="category-left">
+    <div class="mui-scroll-wrapper">
+        <div class="mui-scroll">
+            <div class="links" id="leftCate">
 
-                <div class="links">
-
-                </div>
             </div>
         </div>
-
-    </div>
+</div>
+</div>
     <div class="category-right">
         <div class="mui-scroll-wrapper">
             <div class="mui-scroll">
+                <ul class="brand-list ">
+                    <li>
 
-                <div class="brand-list"></div>
+                    </li>
+
+                 
+
+
+                </ul>
             </div>
         </div>
-
     </div>
+
 </div>
 <script src="js/cetegory.js"></script>
+<script id="category-first" type="text/template">
+    <% for(var i=0;i<result.length;i++){ %>
+    <a href="javascript:;"  class="active" data-id="<%=result[i].id %>">
+        <%=result[i].categoryName %></a>
+
+    <% }%>
+</script>
+<script id="rightCateTpl" type="text/html">
+    <% for(var i=0;i<rows.length;i++){ %>
+
+    <li>
+        <a href="">
+            <img src="<%=rows[i].brandLogo %>" alt=""/>
+            <p><%=rows[i].brandName%></p>
+        </a>
+    </li>
+
+<% }%>
+    <% if(!rows.length){ %>
+    <div class="noresult">暂无数据</div>
+    <% } %>
+
+</script>
+
+
+
 </body>
 </html>
