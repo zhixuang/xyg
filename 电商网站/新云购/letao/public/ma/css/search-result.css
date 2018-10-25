@@ -1,0 +1,16 @@
+.filter {
+  width: 100%;
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px 10px;
+}
+.filter .mui-col-xs-6 {
+  font-size: 14px;
+  height: 35px;
+  line-height: 35px;
+  background-color: pink;
+}
+.filter .mui-col-xs-6 span {
+  font-size: 14px;
+  text-align: center;
+}

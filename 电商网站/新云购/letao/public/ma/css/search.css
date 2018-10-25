@@ -1,0 +1,36 @@
+.mui-center {
+  padding-bottom: 50px;
+  padding-top: 44px;
+}
+.mui-center .container {
+  padding: 10px;
+}
+.mui-center .container .search {
+  width: 100%;
+  height: 35px;
+}
+.mui-center .container .search .search-text {
+  width: 100%;
+  height: 30px;
+  padding-right: 70px;
+  font-size: 14px;
+}
+.mui-center .container .search #search-btn {
+  position: absolute;
+  top: 54px;
+  right: 10px;
+  background-color: red;
+}
+.mui-center .container .history {
+  width: 100%;
+  margin-top: 10px;
+  color: #8f8f94;
+  padding-bottom: 36px;
+}
+.mui-center .container .history .title {
+  font-size: 14px;
+}
+.mui-center .container .history .clear {
+  font-size: 14px;
+  line-height: normal;
+}
