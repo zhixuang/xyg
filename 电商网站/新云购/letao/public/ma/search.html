@@ -11,6 +11,7 @@
     <script src="assets/mui/js/mui.min.js"></script>
     <script src="assets/zepto/zepto.min.js"></script>
     <script src="assets/artTemplate/template-native.js"></script>
+    <script src="js/public.js"></script>
     <script src="js/search.js"></script>
 </head>
 <body>
@@ -20,11 +21,11 @@
 </header>
 <!--尾部导航-->
 <nav class="mui-bar mui-bar-tab my-footer">
-    <a class="mui-tab-item" href="#Popover_0">
+    <a class="mui-tab-item" href="index.html">
         <p class="mui-icon mui-icon-home"></p>
         <p>首页</p>
     </a>
-    <a class="mui-tab-item " href="#Popover_1">
+    <a class="mui-tab-item " href="category.html">
         <p class="mui-icon  mui-icon-bars"></p>
         <p>分类</p>
     </a>
@@ -42,7 +43,7 @@
              <input type="text" placeholder="搜索你喜欢的商品" class="search-text"/>
              <input type="button" value="搜索" id="search-btn"/>
          </div>
-         <div class="history" id="history-box">
+         <div class="history" >
              <span class=" title mui-pull-left">
               搜素历史
              </span>
@@ -50,7 +51,9 @@
                  清空历史
              </span>
          </div>
-        <ul class="mui-table-view" ></ul>
+        <ul class="mui-table-view" id="history-box">
+
+        </ul>
     </div>
 </div>
 <script id="historyTpl" type="text/template">
