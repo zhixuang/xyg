@@ -14,3 +14,9 @@
   font-size: 14px;
   text-align: center;
 }
+#refreshContainer {
+  position: absolute;
+  left: 0;
+  top: 44px;
+  bottom: 50px;
+}

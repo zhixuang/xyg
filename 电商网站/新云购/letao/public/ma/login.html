@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="assets/mui/css/mui.min.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/base.css">
+    <script src="assets/zepto/zepto.min.js"></script>
+    <script src="assets/artTemplate/template-native.js"></script>
+    <script src="assets/mui/js/mui.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/public.js"></script>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav m-hd">
+    <h1 class="mui-title">用户登录</h1>
+    <a href="search.html" class="mui-icon mui-icon-search min-right"></a>
+</header>
+<!--尾部导航-->
+<nav class="mui-bar mui-bar-tab my-footer">
+    <a class="mui-tab-item" href="index.html">
+        <p class="mui-icon mui-icon-home"></p>
+        <p>首页</p>
+    </a>
+    <a class="mui-tab-item " href="category.html">
+        <p class="mui-icon  mui-icon-bars"></p>
+        <p>分类</p>
+    </a>
+    <a class="mui-tab-item" href="#Popover_2">
+        <p class="mui-icon fa fa-shopping-cart"></p>
+        <p>购物车</p></a>
+    <a class="mui-tab-item" href="#Popover_2">
+        <p class="mui-icon mui-icon-person"></p>
+        <p>会员中心</p>
+    </a>
+</nav>
+<div class="mui-content">
+    <form class="mui-input-group">
+        <div class="mui-input-row">
+            <label>用户名</label>
+            <input type="text" class="mui-input-clear" placeholder="请输入用户名" name="username">
+        </div>
+        <div class="mui-input-row">
+            <label>密码</label>
+            <input type="password" class="mui-input-password" placeholder="请输入密码" name="password">
+        </div>
+        <div class="mui-button-row">
+            <button type="button" class="mui-btn mui-btn-primary" id="login-btn">登录</button>
+        </div>
+    </form>
+    <a href="register.html" class="login-now">免费注册</a>
+</div>
+</body>
+</html>
